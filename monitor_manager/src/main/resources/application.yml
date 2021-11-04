@@ -1,0 +1,39 @@
+server:
+  port: 8007
+mybatis:
+  type-aliases-package: xg.beans #所有Entity别名类所在包
+  mapper-locations: [classpath:mapper/**/*.xml]
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: 175.27.245.91:9092
+      value-deserializer: xg.beans.AlarmDes
+  application:
+    name: monitor-manager #在注册中心上显示的服务名
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
+    driver-class-name: com.mysql.jdbc.Driver #mysql驱动包
+    url: jdbc:mysql://localhost:3306/iot # 数据库名称
+    username: root
+    password: 123
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 175.27.245.91:8848 #nacos地址
+  redis:
+   host: 175.27.245.91
+   port: 6379
+   lettuce:
+     pool:
+       max-active: 8
+       max-idle: 8
+       max-wait: -1ms
+       min-idle: 1
+  main:
+    allow-bean-definition-overriding: true
+#分页插件的使用
+pagehelper:
+  helper-dialect: mysql
+  params: count=countSql
+  reasonable: true #pageNum<=0 时会查询第一页,pageNum>pages（超过总数时），会查询最后一页
+  support-methods-arguments: true

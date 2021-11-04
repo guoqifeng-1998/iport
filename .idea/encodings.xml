@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alarm_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alarm_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asset_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/asset_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/item_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/item_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/message" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/model_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitor_manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sys_manager" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sys_manager/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

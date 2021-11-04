@@ -1,0 +1,8 @@
+xg\beans\AlarmDes.class
+xg\cfg\SensorService.class
+xg\MsgApp.class
+xg\beans\AlarmSeria.class
+xg\cfg\SpringTaskExecutor.class
+xg\service\impl\AsyncTaskExecutor.class
+xg\service\impl\DelayRun.class
+xg\service\SendMsgService.class

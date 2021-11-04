@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alarm_manager/alarm_manager.iml" filepath="$PROJECT_DIR$/alarm_manager/alarm_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asset_manager/asset_manager.iml" filepath="$PROJECT_DIR$/asset_manager/asset_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-api/common-api.iml" filepath="$PROJECT_DIR$/common-api/common-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ipiot.iml" filepath="$PROJECT_DIR$/ipiot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/item_manager/item_manager.iml" filepath="$PROJECT_DIR$/item_manager/item_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message/message.iml" filepath="$PROJECT_DIR$/message/message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model_manager/model_manager.iml" filepath="$PROJECT_DIR$/model_manager/model_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor_manager/monitor_manager.iml" filepath="$PROJECT_DIR$/monitor_manager/monitor_manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sys_manager/sys_manager.iml" filepath="$PROJECT_DIR$/sys_manager/sys_manager.iml" />
+    </modules>
+  </component>
+</project>

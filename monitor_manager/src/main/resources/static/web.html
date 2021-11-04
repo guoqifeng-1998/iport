@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+
+<script type="text/javascript">
+    var socket;
+    if (typeof (WebSocket) != "undefined") {//表示浏览器支持websocket
+        //创建WebSocket对象,ws对应http,必须写作"ws"两个字符,要指定服务器的地址和端口
+        socket = new WebSocket("ws://localhost:8007/monitor");
+        //连接打开事件
+        socket.onopen = function() {
+            //在Server中的onMessage方法会收到这条消息
+            //socket.send("Socket 已打开");
+        };
+
+        //收到消息事件
+        socket.onmessage = function(msg) {
+            //alert("收到消息："+msg.data)
+            console.log(msg.data);
+        };
+
+        //发生了错误事件
+        socket.onerror = function() {
+            alert("Socket发生了错误");
+        }
+
+        //窗口关闭时，关闭连接
+        window.unload=function() {
+            socket.close();
+        };
+    }
+</script>
+</body>
+</html>
